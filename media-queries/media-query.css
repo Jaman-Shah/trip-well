@@ -13,7 +13,30 @@
   .navbar .nav-logo .mobile-menu-bar {
     display: block;
   }
+
+  /* explore section starts */
+  .explore-section {
+    padding: 40px 24px;
+    margin: 20px;
+  }
+  .explore-section h3 {
+    font-size: 22px;
+    text-align: center;
+  }
+  .explore-section p {
+    font-size: 14px;
+  }
+  .explore-section .search-boxes {
+    flex-direction: column;
+  }
+  .explore-section .search-boxes .box {
+    width: 255px;
+  }
+  .explore-section .search-boxes button {
+    width: 255px;
+  }
 }
+/* explore section ends  */
 
 /* medium and desktop devices(600-992px)  */
 
@@ -23,5 +46,16 @@
   }
   .nav-items {
     font-size: 0.1em;
+  }
+
+  .explore-section {
+    padding: 32px 24px;
+    margin: 20px;
+  }
+  .explore-section .search-boxes .box {
+    width: 100px;
+  }
+  .explore-section .search-boxes button {
+    width: 100px;
   }
 }

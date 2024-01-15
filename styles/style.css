@@ -44,8 +44,10 @@ section {
 button {
   width: 174px;
   height: 52px;
-  flex-shrink: 0;
   border-radius: 8px;
+  font-size: 20px;
+  color: #fff;
+  border: none;
   background: var(--primary-color);
 }
 /* common shared styles ends */
@@ -55,7 +57,7 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 50px 0pfx;
+  margin: 50px 0px;
 }
 .navbar .nav-logo {
   width: 50%;
@@ -98,3 +100,63 @@ button {
   color: var(--primary-color);
 }
 /* nav styles ends */
+
+/* explore section styles starts */
+.explore-section {
+  height: 500px;
+  margin-top: 50px;
+  background: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url("../images/Group\ 13\ \(1\)\ \(1\).png") no-repeat center center / cover;
+
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.explore-section h3 {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+.explore-section p {
+  color: #fff;
+}
+.explore-section .search-boxes {
+  display: inline-flex;
+  padding: 16px;
+  font-size: 16px;
+  /* align-items: flex-start; */
+  gap: 24px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  display: flex;
+  gap: 24px;
+  margin-top: 48px;
+}
+.explore-section .search-boxes .box {
+  width: 174px;
+  height: 52px;
+  padding: 16px;
+  font-size: 16px;
+  border-radius: 8px;
+  background: #fff;
+  border: none;
+  overflow: hidden;
+  text-align: right;
+}
+.explore-section .search-boxes input {
+  border: none;
+}
+.explore-section .search-boxes select {
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+}
+
+/* explore section styles ends */
