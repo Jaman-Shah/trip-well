@@ -49,6 +49,7 @@ button {
   color: #fff;
   border: none;
   background: var(--primary-color);
+  margin: 24px 0px;
 }
 /* common shared styles ends */
 
@@ -150,6 +151,9 @@ button {
   overflow: hidden;
   text-align: right;
 }
+.explore-section .search-boxes button {
+  margin: 0;
+}
 .explore-section .search-boxes input {
   border: none;
 }
@@ -160,3 +164,24 @@ button {
 }
 
 /* explore section styles ends */
+
+/* popular tours styles starts  */
+.popular-tours {
+  height: 550px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.popular-tours .tour-details :not(:last-child) {
+  margin-bottom: 15px;
+}
+.popular-tours .tour-details ul {
+  padding: 25px;
+}
+.popular-tours .tour-details button {
+  margin: 0;
+}
+.popular-tours .tour-image {
+  width: 100%;
+}
+/* popular tours styles ends */
