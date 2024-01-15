@@ -1,0 +1,27 @@
+/* small devices (600px) */
+@media screen and (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .navbar .nav-logo {
+    width: 100%;
+  }
+  .nav-items {
+    display: none;
+  }
+  .navbar .nav-logo .mobile-menu-bar {
+    display: block;
+  }
+}
+
+/* medium and desktop devices(600-992px)  */
+
+@media screen and (min-width: 600px) and (max-width: 992px) {
+  .navbar {
+    padding: 20px;
+  }
+  .nav-items {
+    font-size: 0.1em;
+  }
+}
