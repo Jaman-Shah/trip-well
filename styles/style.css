@@ -10,6 +10,7 @@
 body {
   max-width: 1170px;
   margin: 0 auto;
+  font-family: "Mulish", sans-serif;
 }
 
 /* primary color which is used in multiple times */
@@ -48,3 +49,52 @@ button {
   background: var(--primary-color);
 }
 /* common shared styles ends */
+
+/* nav styles starts  */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0px;
+}
+.navbar .nav-logo {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .nav-logo .left-side {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.navbar .nav-logo .left-side h3 {
+  font-size: 36px;
+  font-weight: 800;
+}
+.navbar .nav-logo .left-side h3 span {
+  color: var(--primary-color);
+}
+.navbar .nav-logo .mobile-menu-bar {
+  display: none;
+}
+.navbar .nav-items {
+  width: 50%;
+}
+.nav-items ul {
+  display: flex;
+  justify-content: space-between;
+  color: #424247;
+  font-size: 18px;
+  font-weight: 400;
+}
+.nav-items ul li {
+  list-style: none;
+}
+.nav-items ul li a {
+  text-decoration: none;
+}
+.nav-items ul li a span {
+  color: var(--primary-color);
+}
+/* nav styles ends */
