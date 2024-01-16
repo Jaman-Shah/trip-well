@@ -18,6 +18,9 @@ body {
   --primary-color: #ff5400;
 }
 
+.text-orange {
+  color: var(--primary-color);
+}
 /* common heading h1  */
 h1 {
   color: #131318;
@@ -25,6 +28,7 @@ h1 {
   font-size: 40px;
   font-weight: 800;
   line-height: normal;
+  margin-bottom: 24px;
 }
 /* common h4  */
 h4 {
@@ -237,3 +241,46 @@ button {
   justify-content: center;
 }
 /* why-choose section ends */
+
+/* deal-discount styles starts  */
+.deal-discount .deal-discount-desc {
+  text-align: center;
+}
+.deal-discount .deal-discount-desc p {
+  margin-bottom: 48px;
+}
+.deal-discount .deal-discount-images {
+}
+.deal-discount .image {
+  height: 500px;
+  width: 100%;
+  padding: 56px;
+  display: flex;
+  margin-bottom: 24px;
+}
+.deal-discount .image h4 {
+  margin-top: 26px;
+}
+.deal-discount .image-1 {
+  background: url("../images/Group\ 39.png") no-repeat;
+  justify-content: flex-end;
+}
+.deal-discount .image-2 {
+  background: url("../images/Group\ 39.png") no-repeat;
+  justify-content: flex-start;
+}
+.deal-discount .image-3 {
+  background: url("../images/Group\ 39.png") no-repeat;
+  justify-content: flex-end;
+}
+.deal-discount .float-card {
+  width: 579px;
+  height: 389px;
+  padding: 50px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
+}
+/* deal-discount styles ends */
