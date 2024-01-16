@@ -160,6 +160,9 @@
   .explore-section .search-boxes button {
     width: 100px;
   }
+  .explore-section h3 {
+    margin-top: 32px;
+  }
   /* popular tour section  */
 
   /* destination section  */

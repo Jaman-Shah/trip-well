@@ -164,9 +164,13 @@ button {
   margin: 0;
 }
 .explore-section .search-boxes input {
+  width: 100%;
+  text-align: left;
   border: none;
 }
 .explore-section .search-boxes select {
+  width: 100%;
+  text-align: left;
   border: none;
   outline: none;
   scroll-behavior: smooth;
