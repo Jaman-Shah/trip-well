@@ -365,3 +365,34 @@ button {
 }
 
 /* newsletter section ends */
+
+/* footer section starts  */
+
+footer {
+  background-color: rgba(19, 19, 24, 0.05);
+  margin: 0px;
+  padding: 110px 335px;
+  text-align: center;
+}
+/* this is the nav logo style  */
+footer .nav-logo {
+  display: flex;
+  justify-content: center;
+}
+
+footer .nav-logo .left-side {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+footer .icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 50px 0px;
+}
+footer hr {
+  margin-bottom: 50px;
+}
+/* footer section ends */

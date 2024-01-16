@@ -117,6 +117,15 @@
   }
 
   /* newsletter-section ends  */
+  /* footer styles starts  */
+
+  footer {
+    padding: 30px;
+  }
+  footer .nav-logo img {
+    width: 28px;
+  }
+  /* footer styles ends */
 }
 
 /* medium and desktop devices(600-992px)  */
