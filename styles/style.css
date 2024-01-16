@@ -26,6 +26,12 @@ h1 {
   font-weight: 800;
   line-height: normal;
 }
+/* common h4  */
+h4 {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+}
 /* common paragraph p  */
 p {
   color: #5a5a5d;
@@ -203,3 +209,31 @@ button {
 .destination-section .destination-images {
 }
 /* destination section ends */
+
+/* why-choose section starts */
+.why-choose-section .why-choose-desc {
+  text-align: center;
+}
+.two-cards {
+  margin-top: 48px;
+  display: flex;
+  gap: 16px;
+}
+.two-cards .card,
+.card.one-card {
+  width: 573px;
+  height: 284px;
+  padding: 32px;
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+}
+.two-cards .card-2 {
+  background: rgba(41, 206, 246, 0.05);
+}
+.bottom-card {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+}
+/* why-choose section ends */

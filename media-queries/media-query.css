@@ -67,6 +67,24 @@
     border-radius: 16px;
   }
   /* destination section ends */
+
+  /* why-choose section starts  */
+  .why-choose-section {
+    padding: 0 20px;
+  }
+  .two-cards .card,
+  .card.one-card {
+    width: 100%;
+    height: 289px;
+  }
+  .two-cards {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .two-cards .card-one {
+    margin-bottom: 16px;
+  }
+  /* why-choose section ends */
 }
 
 /* medium and desktop devices(600-992px)  */
