@@ -1,5 +1,5 @@
 /* Mulish font for page  */
-@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;800;700&display=swap");
 
 /* common shared styles starts */
 * {
@@ -190,7 +190,7 @@ button {
   margin: 0;
 }
 .popular-tours .tour-image img {
-  width: 100%;
+  /* width: 100%; */
 }
 /* popular tours styles ends */
 
@@ -266,7 +266,7 @@ button {
   justify-content: flex-end;
 }
 .deal-discount .image-2 {
-  background: url("../images/Group\ 39.png") no-repeat;
+  background: url("../images/Group\ 40.png") no-repeat;
   justify-content: flex-start;
 }
 .deal-discount .image-3 {
@@ -283,4 +283,24 @@ button {
   background: rgba(255, 255, 255, 0.8);
   backdrop-filter: blur(2.5px);
 }
+
+.deal-discount-bottom-button {
+  display: flex;
+  justify-content: center;
+}
+.deal-discount-bottom-button button {
+  padding: 14px 22px;
+  font-size: 1em;
+}
 /* deal-discount styles ends */
+
+/* simple place section starts  */
+
+.simple-place-section p {
+  line-height: 20px;
+}
+
+.simple-place-section .tour-details ul li {
+}
+
+/* simple place section ends */
