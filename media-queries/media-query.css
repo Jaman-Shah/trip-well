@@ -114,6 +114,8 @@
   /* newsletter-section starts  */
   .newsletter-section {
     flex-direction: column;
+    margin: 0;
+    padding: 30px;
   }
 
   /* newsletter-section ends  */
@@ -131,14 +133,14 @@
   /* footer styles starts  */
 
   footer {
-    padding: 30px;
+    margin: 0;
+    padding: 0px;
   }
   footer .nav-logo img {
     width: 28px;
   }
   /* footer styles ends */
 }
-
 /* medium and desktop devices(600-992px)  */
 
 @media screen and (min-width: 600px) and (max-width: 992px) {
@@ -159,14 +161,55 @@
   }
   .explore-section .search-boxes button {
     width: 100px;
+    font-size: 10px;
   }
   .explore-section h3 {
     margin-top: 32px;
   }
   /* popular tour section  */
-
-  /* destination section  */
-  .destination-section .destination-images {
-    width: 50%;
+  .popular-tours {
+    margin: 0;
+    padding: 32px;
   }
+  .popular-tours .tour-image img {
+    width: 90%;
+    height: 100%;
+  }
+  /* destination section  */
+  .destination-section {
+    margin: 0;
+    padding: 32px;
+  }
+  .destination-section .destination-images {
+    display: flex;
+    flex-direction: row;
+  }
+  .destination-section .destination-images img {
+    width: 400px;
+    height: 400px;
+  }
+  .destination-section .destination-images .image-7 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .destination-section .destination-images .image-7 h1 {
+    transform: translate(335px, -44px);
+  }
+
+  /* why choose section  */
+  .why-choose-section,
+  .deal-discount,
+  .newsletter-section,
+  .my-extra-section {
+    margin: 0;
+    padding: 32px;
+  }
+  .deal-discount {
+    border-radius: 32px;
+  }
+
+  /* deal discount section */
+
+  /* newsletter section  */
 }
