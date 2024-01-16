@@ -315,7 +315,7 @@ button {
 
 .newsletter-section {
   display: flex;
-  padding: 40px;
+  padding: 0px;
   justify-content: center;
   align-items: center;
 }
@@ -426,9 +426,12 @@ button {
 
 footer {
   background-color: rgba(19, 19, 24, 0.05);
-  margin: 0px;
   padding: 110px 335px;
   text-align: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  box-sizing: content-box;
 }
 /* this is the nav logo style  */
 footer .nav-logo {
