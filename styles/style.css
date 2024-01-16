@@ -48,7 +48,7 @@ p {
 section {
   margin-bottom: 100px;
 }
-/* common button  */
+/* common button */
 
 button {
   width: 174px;
@@ -365,6 +365,56 @@ button {
 }
 
 /* newsletter section ends */
+
+/* my-extra section starts  */
+.my-extra-section {
+  padding: 50px;
+  border: 2px solid violet;
+  opacity: 0.9;
+  background-color: #8e44ad;
+  border-radius: 20px;
+}
+.my-extra-section .live-chat {
+  text-align: center;
+}
+.my-extra-section .live-chat input {
+  border: 2px solid #c0392b;
+  height: 100px;
+  width: 100%;
+  padding: 20px;
+  border-radius: 10%;
+  font-size: 30px;
+}
+.my-extra-section .live-chat button {
+  height: 100px;
+  width: 100px;
+  border-radius: 20% 70% 70% 20%;
+  border: 1px solid blue;
+}
+.my-extra-section .live-chat button:hover {
+  background-color: blue;
+  border: 1px solid orange;
+  cursor: pointer;
+  border: none;
+  color: #fbc531;
+}
+.my-extra-section .card {
+  font-size: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  color: blue;
+}
+
+.my-extra-section .card .card-item-1 {
+  color: blue;
+}
+.my-extra-section .card .card-item-2 {
+  color: #44bd32;
+}
+.my-extra-section .card .card-item-3 {
+  color: red;
+}
+/* my-extra section ends */
 
 /* footer section starts  */
 

@@ -117,6 +117,17 @@
   }
 
   /* newsletter-section ends  */
+
+  /* extra section starts  */
+  .my-extra-section {
+    padding: 20px;
+    width: 90%;
+    margin-left: 25px;
+  }
+  .my-extra-section .card {
+    font-size: 50px;
+  }
+  /* extra section ends */
   /* footer styles starts  */
 
   footer {
