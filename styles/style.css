@@ -253,8 +253,10 @@ button {
 .deal-discount .deal-discount-desc p {
   margin-bottom: 48px;
 }
-.deal-discount .deal-discount-images {
+.deal-discount .deal-discount-images i {
+  color: var(--primary-color);
 }
+
 .deal-discount .image {
   height: 500px;
   width: 100%;

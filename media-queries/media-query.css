@@ -62,7 +62,7 @@
     padding: 20px;
   }
   .destination-section .destination-images h1 {
-    bottom: -100px;
+    bottom: -130px;
   }
   .destination-section .destination-images img {
     width: 100%;
@@ -102,7 +102,7 @@
   }
   .deal-discount .float-card {
     width: 303px;
-    height: 400px;
+    height: 420px;
   }
 
   /* deal-discount section ends */
