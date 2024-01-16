@@ -29,7 +29,6 @@ h1 {
 /* common paragraph p  */
 p {
   color: #5a5a5d;
-
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -167,7 +166,6 @@ button {
 
 /* popular tours styles starts  */
 .popular-tours {
-  height: 550px;
   display: flex;
   justify-content: space-between;
   gap: 30px;
@@ -181,7 +179,27 @@ button {
 .popular-tours .tour-details button {
   margin: 0;
 }
-.popular-tours .tour-image {
+.popular-tours .tour-image img {
   width: 100%;
 }
 /* popular tours styles ends */
+
+/* destination section starts  */
+
+.destination-section .destination-title {
+  text-align: center;
+}
+
+.destination-section .destination-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.destination-section .destination-images h1 {
+  color: white;
+  position: relative;
+  top: 50%;
+}
+.destination-section .destination-images {
+}
+/* destination section ends */

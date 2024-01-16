@@ -1,5 +1,12 @@
 /* small devices (600px) */
 @media screen and (max-width: 600px) {
+  /* common h1 and p sizes  */
+  h1 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 14px;
+  }
   .navbar {
     flex-direction: column;
     padding: 20px;
@@ -42,11 +49,25 @@
     flex-direction: column;
     padding: 20px;
   }
-  .popular-tours img {
+
+  /* popular tour section ends */
+  /* destination section starts  */
+  .destination-section .destination-images {
     width: 100%;
+    flex-direction: column;
+    padding: 20px;
   }
+  .destination-section .destination-images h1 {
+    bottom: -100px;
+  }
+  .destination-section .destination-images img {
+    width: 100%;
+    height: 176px;
+    object-fit: cover;
+    border-radius: 16px;
+  }
+  /* destination section ends */
 }
-/* popular tour section ends */
 
 /* medium and desktop devices(600-992px)  */
 
@@ -70,26 +91,9 @@
     width: 100px;
   }
   /* popular tour section  */
-  .popular-tours {
-    padding: 20px;
-    gap: 5px;
-    font-size: 30px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-  .popular-tours p {
-    text-overflow: ellipsis;
-    font-size: 10px;
-  }
-  .popular-tours .tour-details :not(:last-child) {
-    margin-bottom: 0px;
-  }
-  .popular-tours .tour-details ul {
-    padding: 10px;
-  }
-  .popular-tours .tour-details img {
-    width: 300px;
-    height: 300px;
+
+  /* destination section  */
+  .destination-section .destination-images {
+    width: 50%;
   }
 }
