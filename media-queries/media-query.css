@@ -110,6 +110,13 @@
   /* simple place section starts */
 
   /* simple place section ends */
+
+  /* newsletter-section starts  */
+  .newsletter-section {
+    flex-direction: column;
+  }
+
+  /* newsletter-section ends  */
 }
 
 /* medium and desktop devices(600-992px)  */

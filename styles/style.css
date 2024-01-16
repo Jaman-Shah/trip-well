@@ -304,3 +304,64 @@ button {
 }
 
 /* simple place section ends */
+
+/* newsletter section starts  */
+
+.newsletter-section {
+  display: flex;
+  padding: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.newsletter-section .newsletter-form h4 {
+  margin-bottom: 16px;
+}
+.newsletter-section .newsletter-form p {
+  margin-bottom: 40px;
+}
+.newsletter-section .newsletter-form hr {
+  width: 393px;
+  margin-bottom: 24px;
+}
+.newsletter-section .newsletter-form :nth-child(1) {
+  margin-bottom: 24px;
+}
+.newsletter-section .newsletter-form input {
+  width: 393px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  border: none;
+  padding: 16px 20px;
+}
+.newsletter-section .newsletter-form button {
+  width: 393px;
+}
+
+.newsletter-section .newsletter-image {
+  height: 422px;
+  width: 100%;
+  position: relative;
+  border-radius: 16px;
+  background: url("../images/Rectangle 8 (1).png") no-repeat 100% 100% / cover;
+}
+
+.newsletter-section .newsletter-image .saving-card {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  bottom: 47px;
+  right: 5px;
+  width: 324px;
+  height: 120px;
+  transform: rotate(-19.628deg);
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: #ff5400;
+}
+
+/* newsletter section ends */
